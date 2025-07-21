@@ -1,0 +1,481 @@
+<html>
+<head>
+<title>-: NATIONS REACH :- Gospel Through Media, Mercy and Mission</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+.suckerdiv ul{margin: 0;padding: 0;list-style-type: none;width: 181px; border-bottom: 1px solid #ccc;}
+.suckerdiv ul li{position: relative;}
+	
+/*Sub level menu items */
+.suckerdiv ul li ul{position: absolute;width: 150px; top: 0;visibility: hidden;}
+
+/* Sub level menu links style */
+.suckerdiv ul li a {display: block;overflow: auto; color: #000000;text-decoration: none;background: #DBDBDB;padding: 0px;border: 1px solid #ECECEC;border-bottom: 0;font-family: Arial, Helvetica, sans-serif; font-size: 11px; }
+.suckerdiv ul li a:hover{background-color: #FFE689;font-family:arial, Helvetica, sans-serif; font-size: 11px; color: #861913;font-weight: bold;}
+/*.suckerdiv .subfolderstyle{background: url(media/arrow-list.gif) no-repeat center right;}
+
+/* Holly Hack for IE \*/
+* html .suckerdiv ul li { float: left; height: 1%; background-color: #FFFFFF;}
+* html .suckerdiv ul li a { height: 1%; }
+/* End */
+
+</style>
+
+
+
+<script type="text/javascript">
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+
+function buildsubmenus(){
+for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+    for (var t=0; t<ultags.length; t++){
+    ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+		if (ultags[t].parentNode.parentNode.id==menuids[i]) //if this is a first level submenu
+			ultags[t].style.left=ultags[t].parentNode.offsetWidth+"px" //dynamically position first level submenus to be width of main menu item
+		else //else if this is a sub level submenu (ul)
+		  ultags[t].style.left=ultags[t-1].getElementsByTagName("a")[0].offsetWidth+"px" //position menu to the right of menu item that activated it
+    ultags[t].parentNode.onmouseover=function(){
+    this.getElementsByTagName("ul")[0].style.display="block"
+    }
+    ultags[t].parentNode.onmouseout=function(){
+    this.getElementsByTagName("ul")[0].style.display="none"
+    }
+    }
+		for (var t=ultags.length-1; t>-1; t--){ //loop through all sub menus again, and use "display:none" to hide menus (to prevent possible page scrollbars
+		ultags[t].style.visibility="visible"
+		ultags[t].style.display="none"
+		}
+  }
+}
+
+if (window.addEventListener)
+window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+window.attachEvent("onload", buildsubmenus)
+
+</script>
+<body bgcolor="#DEE5EC" topmargin="0" leftmargin="0" marginheight="0">	
+	<table align="center" cellpadding="0" cellspacing="0" border="0" width="780" bgcolor="#FFFFFF">
+		<tr>
+			<td valign="top" height="3" bgcolor="#0084FF" colspan="2"></td>
+		</tr>
+		<tr>
+			<td valign="top" colspan="2"><IMG SRC="images/Nations-Reach-Heading.jpg" WIDTH=780 HEIGHT=161 ALT=""></td>
+		</tr>
+		<tr>
+			<td valign="top" height="6" bgcolor="#0084FF" colspan="2"></td>
+		</tr>
+		<tr>
+			<td valign="top" width="183" height="281" background="images/Dot-Lines-bg.jpg">
+				<table align="center" cellpadding="0" cellspacing="0" border="0" width="183">
+					<tr>
+						<td valign="middle" height="20">
+						<div class="suckerdiv">
+						<ul id="suckertree1" class="arial_text">
+							
+                 
+                <li><a href="#">&nbsp;&nbsp;&nbsp;About NRN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&raquo;</a> 
+                  <UL>
+                    <li><a href="About_NRN.html" class="arial_menu">&nbsp;&nbsp;Why 
+                      NRN</a></li>
+                    <li><a href="Article_Of_Faith.html" class="arial_menu">&nbsp;&nbsp;Statement 
+                      Of Faith</a></li>
+                    <li><a href="our_President.html" class="arial_menu">&nbsp;&nbsp;From 
+                      our President</a></li>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;Endoresements</a></li>
+                  </UL>
+                </li>
+										
+							
+                <li><a href="#">&nbsp;&nbsp;&nbsp;Ministries &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</a> 
+                  <UL>
+                    <li><a href="ministries.html" class="arial_menu">&nbsp;&nbsp;About</a></li>
+                    <li><a href="#">&nbsp;&nbsp;MEDIA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                      &raquo;</a> 
+                      <ul>
+                        <li><a href="intoActionMedia/profile.html" class="arial_menu">&nbsp;&nbsp;Company 
+                          Profile</a></li>
+                        <li><a href="intoActionMedia/history.html" class="arial_menu">&nbsp;&nbsp;Company 
+                          History</a></li>
+                        <li><a href="intoActionMedia/Contact.html" class="arial_menu">&nbsp;&nbsp;Contact</a></li>
+                        <li><a href="intoActionMedia/film.html" class="arial_menu">&nbsp;&nbsp;Film</a> 
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Review</a></li>
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Press Release</a></li>
+                        <li><a href="intoActionMedia/video.html" class="arial_menu">&nbsp;&nbsp;Video</a></li>
+                        <li><a href="intoActionMedia/web.html" class="arial_menu">&nbsp;&nbsp;Web</a></li>
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Products</a></li>
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Need for 
+                          Media</a></li>
+                        <li><a href="intoActionMedia/Cross_Over_Films.html" class="arial_menu">&nbsp;&nbsp;Cross 
+                          Over Films</a></li>
+                        <li><a href="intoActionMedia/news.html" class="arial_menu">&nbsp;&nbsp;News</a></li>
+                        <li><a href="intoActionMedia/careers.html" class="arial_menu">&nbsp;&nbsp;Careers</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#" target="_blank" class="arial_menu">&nbsp;&nbsp;MERCY 
+                      (Little Roses)&nbsp; &nbsp;&nbsp;&nbsp;&raquo;</a> 
+                      <ul>
+                        <li><a href="LittleRoses/about-lr.html" class="arial_menu">&nbsp;&nbsp;About 
+                          LR</a></li>
+                        <li><a href="LittleRoses/our_homes.html" class="arial_menu">&nbsp;&nbsp;Our 
+                          Homes</a></li>
+                        <li><a href="LittleRoses/Children_profile.html" class="arial_menu">&nbsp;&nbsp;Childrens 
+                          Profile</a></li>
+                        <li><a href="LittleRoses/visit_our_homes.html" class="arial_menu">&nbsp;&nbsp;Visit 
+                          Our Homes</a></li>
+                        <li><a href="LittleRoses/Make_Difference.html" class="arial_menu">&nbsp;&nbsp;Make 
+                          a Difference</a></li>
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Donate</a></li>
+                        <li><a href="LittleRoses/youCanHelp.html" class="arial_menu">&nbsp;&nbsp;You 
+                          Can Help</a></li>
+                        <li><a href="LittleRoses/videos.html" class="arial_menu">&nbsp;&nbsp;Videos</a></li>
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Gallery&nbsp; 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                          &raquo;</a> 
+                          <ul>
+                            <li><a href="LittleRoses/LittleRosesGallery/index.htm" class="arial_menu">&nbsp;&nbsp;Photos</a></li>
+                            <li><a href="LittleRoses/vbs-2007.html" class="arial_menu">&nbsp;&nbsp;VBS-2007</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#" class="arial_menu">&nbsp;&nbsp;Downloads&nbsp; 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</a> 
+                          <ul>
+                            <li><a href="LittleRoses/e-cards.html" class="arial_menu">&nbsp;&nbsp;E-cards</a></li>
+                            <li><a href="#" class="arial_menu">&nbsp;&nbsp;Childrens 
+                              Drawings</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;MISSION&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</a>
+						<ul>
+							<li><a href="icf/index.html" class="arial_menu">&nbsp;&nbsp;About</a></li>
+							<li><a href="#" class="arial_menu">&nbsp;&nbsp;Events</a></li>
+							<li><a href="#" class="arial_menu">&nbsp;&nbsp;Services</a></li>
+						</ul>
+					</li>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;Training</a></li>
+                  </UL>
+                </li>
+										
+							
+                <li><a href="#">&nbsp;&nbsp;&nbsp;Where are We&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp; &raquo;</a> 
+                  <UL>
+                    <li><a href="LittleRoses/our_homes.html" class="arial_menu">&nbsp;&nbsp;Rajapalayam</a></li>
+                    <li><a href="LittleRoses/our_homes.html" class="arial_menu">&nbsp;&nbsp;Dindugul</a></li>
+                    <li><a href="NationsNews.html#sec_m1" class="arial_menu">&nbsp;&nbsp;Sri 
+                      Lanka</a></li>
+                    <li><a href="NationsNews.html#sec_m2" class="arial_menu">&nbsp;&nbsp;Andaman</a></li>
+                    <li><a href="LittleRoses/our_homes.html" class="arial_menu">&nbsp;&nbsp;Ooty</a></li>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;Kasmir</a></li>
+                    <li><a href="NationsNews.html#sec_m3" class="arial_menu">&nbsp;&nbsp;North 
+                      East India</a></li>
+                  </UL>
+                </li>
+										
+							
+                <li><a href="#">&nbsp;&nbsp;&nbsp;Nations News&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp; &raquo;</a> 
+                  <UL>
+                    <li><a href="Video.html" class="arial_menu">&nbsp;&nbsp;Video 
+                      Archieve</a></li>
+
+                    <li><a href="intoActionMedia/sempulinkamFlash.html" class="arial_menu" target="_blank">&nbsp;&nbsp;Photostories</a></li>
+                    <li><a href="Articles.html" class="arial_menu">&nbsp;&nbsp;Articles</a></li>
+                    <li><a href="NationsNews.html" class="arial_menu">&nbsp;&nbsp;News</a></li>
+                  </UL>
+                </li>
+										
+                <li><a href="#">&nbsp;&nbsp;&nbsp;Resource for Ministries&nbsp;&nbsp;&nbsp;&nbsp; 
+                  &nbsp;&nbsp;&nbsp;&nbsp; &raquo;</a> 
+                  <UL>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;Video</a></li>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;Audio</a></li>
+                    <li><a href="#" class="arial_menu">&nbsp;&nbsp;E-Store</a></li>
+                  </UL>
+                </li>
+										
+							
+                <li><a href="vision.html">&nbsp;&nbsp;&nbsp;Our Vision</a> 
+                <li><a href="Photo_Gallery.html">&nbsp;&nbsp;&nbsp;Photo gallery</a> 
+                <li><a href="#">&nbsp;&nbsp;&nbsp;Prayer Support</a> 
+                <li><a href="#">&nbsp;&nbsp;&nbsp;Testimonies</a> 
+				<li><a href="#">&nbsp;&nbsp;&nbsp;DVD / Books</a> 
+              </ul>
+						</div>
+						</td>
+						<td width="2" background="images/Line-border.jpg" rowspan="30"></td>
+					</tr>
+					<tr>
+						<td height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td height="1" bgcolor="#FFFFFF"></td>
+					</tr>
+					<tr>
+						<td height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<table align="center" cellpadding="0" cellspacing="1" border="0" width="181" bgcolor="#FFFFFF">
+								<tr>
+									<td valign="middle" height="23" bgcolor="#F3F3F3" class="arial_text"><a href="#" class="DRed_menu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MY ACCOUNT</a></td>
+								</tr>
+								<tr>
+									<td valign="middle" height="23" bgcolor="#F3F3F3" class="arial_text"><a href="#" class="DRed_menu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SPONSOR</a></td>
+								</tr>
+								<tr>
+									<td valign="middle" height="23" bgcolor="#F3F3F3" class="arial_text"><a href="#" class="DRed_menu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-STORE</a></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td valign="middle" colspan="2" height="150">
+							<table align="center" cellpadding="0" cellspacing="0" border="0" width="181">
+								<tr>
+									<td height="8"></td>
+								</tr>
+								<tr>
+									<td valign="top" align="center"><img src="swf/Videos.gif"></td>
+								</tr>
+								<tr>
+									<td valign="top" align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="163" height="163">
+                                      <param name="movie" value="swf/Url-vide9o.swf">
+                                      <param name="quality" value="high">
+                                      <embed src="swf/Url-vide9o.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="163" height="163"></embed>
+								    </object></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+					<tr>
+						<td valign="middle" height="75" colspan="2" background="images/Dot-Lines-bg.jpg"></td>
+					</tr>
+					<tr>
+						<td height="1" bgcolor="#CCCCCC"></td>
+					</tr>
+				</table>
+			</td>
+			<td valign="top" width="597">
+				<table align="center" cellpadding="0" cellspacing="0" border="0" width="597">
+					<tr>
+						<td valign="top" height="29" colspan="7" align="right">
+							<table align="center" cellpadding="0" cellspacing="0" border="0" width="595" height="29">
+								<tr>
+									<td width="352" valign="top"></td>
+									<td width="243" valign="middle" align="right">
+									<font class="box1_text"><a href="Index.html" class="sub_menu">Home </a>| 
+									<a href="#" class="sub_menu">Site Map </a>|
+									<a href="contact.html" class="sub_menu">Contact Us </a>&nbsp;&nbsp;&nbsp;
+									</font>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="21" colspan="7">
+							<table align="center" cellpadding="0" cellspacing="0" border="0" width="597">
+								<tr>
+									<td width="25" valign="top" rowspan="2"></td>
+									<td width="547" valign="top"><br><img src="headings/News.jpg"></td>
+									<td width="25" valign="top" rowspan="2"></td>
+								</tr>
+								<tr>
+									<td valign="top" class="body_text">
+                                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5" face="Times New Roman, Times, serif" color="#0084FF"><u><A href="NationsNews.html#sm" name=sec_m1></a>SRI LANKA</u></font>
+									<br><br>On March 17th 2005, Nations Reach team went to visit Sri Lanka. Our mission partners from Nuewralia were waiting for us in Colombo. Our plan was to visit the worst hit Tsunami areas in Sri Lanka. The purpose of this trip was to identify the need for workers and to prepare project proposals for Nations Reach to consider future developments. 
+									<br><br>March17, 2005 
+									<br><br>On March 17, 2005 I left India on Jet Airways at 12 p.m. and headed towards Sri Lanka. 
+									<br><br>After arriving in Sri Lanka, we traveled by car to go to Kalmunai via Kandy. I met with Pastor Selvarajah at 11.30 p.m after a 9 hour drive from the airport. 
+									<br><br>Had a meeting with all the local workers and went to view several Tsunami disaster areas; 
+									<ul>
+										<li>Visited the most effected areas in Sri Lanka. </li>
+										<li>Went through army restricted areas to see how the camps have been setup. </li>
+										<li>Visited camps controlled by the TASK FORCE. </li>
+										<li>Visited camps controlled by LTTE.</li>
+										<li>Had a meeting with local Little Roses staffs, and potential future workers for Little Roses. </li>
+										<li>Met with Kannan who is in need of support for his work, and a church building that was completely destroyed by the Tsunami. </li>
+										<li>Had a discussion with Selvarajah for our future leadership conference and partnership in missions. </li>
+									</ul>
+									Handed over check for Tsunami relief work. 
+									<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5" face="Times New Roman, Times, serif" color="#0084FF"><u><A href="NationsNews.html#sm" name=sec_m2></a>ANDAMAN</u></font>
+									<br><br>Andaman, a beautiful pearl of an island situated in the midst of Indian Ocean just below the coastal line of Burma. Nations Reach's object was to identify the children and orphans affected by the Tsunami disaster, and to work with local missions to form partnership for future ministries. 
+									<br><br>When we went to see the work of different ministries, we were surprised to see that truly the harvest is plentiful but the laborers are few. Now, this has challenged us in Nations Reach to consider having our mission's base on this island. We got into action to see the possibilities of recruiting missionaries and build churches. The result now is that we have completely adopted a local mission agency with 15 missionaries, and to start building two churches. We have also come up with a plan to hold leadership conferences every year here on this island. Our first Coastal Hope Christian Leadership Conference will be held on the 3rd week of July 2005. 
+									<br><br>There will be a team consisting of 7 leaders from the US who will be conducting a 3 day leadership conference at Port Blair in Andaman and Nicobar Islands. 
+									<br><br>Our immediate needs for this island are; one motorbike, one jeep and monthly support for our workers. We will be starting our Little Roses Children's Home soon here on this island. 
+									<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="5" face="Times New Roman, Times, serif" color="#0084FF"><u><A href="NationsNews.html#sm" name=sec_m3></a>INDIA</u></font>
+									<BR><BR>Selwyn Raj Kumar has joined us as our India mission's director to take control of ministries taking place in India. 
+									<BR><BR>We are starting our next building project for Little Roses girl's home in Dindigul, India. 
+									<BR>Nations Reach Training Center will be built soon in Ooty, India. 
+									<BR><BR>Now we have 
+									<ul type="square">
+										<li>25 missionaries under the banner of Nations Reach.</li>
+										<li>100 children with the mercy ministries of Nations Reach.</li>
+										<li>Since the beginning of this year, we have held 48 gospel crusade meetings in the interior parts of India.</li>
+										<li>Screened around 52 gospel film shows </li>
+										<li>Nations Reach is starting work in Burma and Sri Lanka </li>
+									</ul>
+									Please pray with us; 
+									<ul type="square">
+										<li>As we are starting our television programs in Indian television from July 2005.</li>
+										<li>As we are preparing for the leadership conference in Andaman and in Sri Lanka.</li>
+										<li>We need 2 jeeps and 2 bikes immediately for Andaman and for Little Roses.</li>
+										<li>As we are planning to build 50 churches in Northern India with Mohan C.Lazarus</li>
+										<li>To give 1000 bicycles, 20 motor bikes and to distribute 3000 bibles to the Missionaries in Northern India through Mohan C Lazarus's Jesus Redeems on November 2005.</li>
+									</ul>
+									If you are led by the Lord to bless a missionary or a project or to support this ministry, please contact us at: Nations Reach P.O.Box 65231 Virginia Beach, VA 23467 USA. Tel: 757-962-0031 / 757-319-6817 or
+									e.mail us at: <a href="mailto:mail@nationsreach.org" class="red_menu"><font size="2">mail@nationsreach.org</font> </a>
+									<br><br>
+									<table align="center" cellpadding="0" cellspacing="0" border="0" width="547">
+										<tr>
+											<td valign="top" align="center" height="25" bgcolor="#993300"><b><font color="#FFFFFF" size="5" face="Courier New, Courier, mono"><A href="NationsNews.html#sm" name=sec_nn1></a>NATIONS NEWS UPDATE APRIL2005</font></b></td>
+										</tr>
+										<tr>
+											<td valign="top" class="body_text"><br>
+												<ul>
+													<li><b><u>Little Roses Building in Rajapalayam, S.India </u></b><br>
+													<br>This building project though was completed and dedicated in April 2004, had a lot of pending minor and major furnishing and maintenance jobs. This got delayed due to lack of funds. Praise God! This March, nearly 11 months after the dedication we were able to see this come through. Children living here are very happy with this provision of fans and mosquito mesh for windows, tiled bathrooms, toilets, overhead water tank, plumbing works, a kitchen sink, and sewage line. 
+													<br><br>Surely this home has become a place of providing a homely atmosphere for our children to study and enjoy their childhood. Yes, these kids have tasted the goodness of the Lord this year!</li>
+													<br><br>
+													<li><b><u>Little Roses Building   in Dindigul, S.India - Ground Breaking</u></b>
+													<br><br>The Lord has answered the cry and petition of these children and has provided a very suitable land 5 kms away from the present home easily accessible to the road in the month of March 2005. The Little Roses Home that has been functioning in a rented building for nearly 8years and caring for over 55 children has crossed a milestone in seeing a breakthrough for a permanent building. 
+													<br><br>We launched our second building Little Rose Home construction by initially digging a bore well at 350 feet for water source to go ahead with the planned & proposed 1300 sq feet building project. The initial ground breaking for the home was done on 18th March 2005. This home will be completed in five months and God willing, be ready for dedication at the end of September 2005.
+													</li>
+													<br><br>
+													<li><b><u>Little Roses Home in Ooty, India:</u></b>
+													<br><br>Plans are underway for Little Roses Children's Home project to cater to the needs of 20-25 tribal children and special needs children living in the hill station of the Nilgiris district. The proposed site for this project is ideal for a children's home because the land is adjacent to the high school. The scope of reaching into several villages with the light of the gospel through the existing school, and our other ministries especially the proposed children's home could make a difference here in Agalar. (This place is approximately 15 kms away from Ooty town and is surrounded by nearly 15-20 villages). 
+													<br><br>The Nilgiris is renowned for its hill tribes. It is occupied by distinct tribes of which the Todas, the Kotas, the Kurumbas, and the Irulas are considered to be primitive and aboriginal. Paniyas , Kasavas , Mullukurumbas ,Chetties, Shola Naickens, Malai Naickens are other hill tribes living in Nilgiris. 
+													</li>
+													<br><br>
+													<li><b><u>Andamans & Nicobar Islands :</u></b>
+													<bR><br>Recently, Raja Sekar and the Nation Reach team visited Andamans & Nicobar Islands to survey and determine the felt need to help the recent Tsunami victims. They recall it to be a timely visit. We are coming up with a special initiative with missions to Andamans & Nicobar Island to help rehabilitate about 50 children later this year. This will depend on the responses of donors and partners. 
+													<br><br>Due to the recent Tsunami devastation, our mercy ministry is expanding and we are looking beyond our horizon to Sri Lanka especially in the coming year of 2006. Staffs are already ready to help establish a children's home project for 50 children affected by the Tsunami.
+													</li>
+													<br><br>
+													<li><b><u>Our Goal :</u></b></li>
+													<br><br>The children's home project is growing gradually and steadily. Our goal is to help approximately 200 to 250 children. Though the need is great in this part of the world, we want to be realistic and offer quality education, provide good homely atmosphere, accommodations and care to help these children grow in the fear of the Lord, empower them to rise and shine for Jesus, to glorify God and ultimately be a blessing TO THE NATIONS.
+													<br><br>
+												</ul>
+												<br>
+												<b><u>MISSIONS :</u></b> FOR SUCH A TIME AS THIS 
+												<br><br>NATIONS REACH'S PASTORS' CONFERENCE AND EVENING GOSPEL CRUSADE 
+												(Post Tsunami Christian leaders conference in Andaman); 
+												<br><br>This year the pastors' conference will be held in Andaman & Nicobar Islands. One of the observed and felt needs during Raja Sekar's visit to Andaman in March 2005 was to offer encouragement, renewal, and revival to Christian workers and pastors who were devastated and affected by the tsunami. Many had lost their loved ones, belongings, homes and even church buildings. 
+												<br><br>Therefore, we are planning for a three-day conference for Christian leaders, pastors, and workers in Port Blair, Andaman. The target is for 250-300 participants. The goal is to have an evening gospel meeting to encourage local Christians and also to reach the lost for a great harvest of souls. 
+												<br><br>The conference will be held in Megapode Nest, Port Blair, and the tentative dates are from July 26th to 28th 2005. The evening gospel crusade/meeting will be held at Dr. Ambedkar Auditorium. 
+												<br><br>Did you know that the Andaman & Nicobar Islands have 28 zip code areas, 547 villages, nearly 49 inhabited islands with 26 different language groups, and 6 tribal groups? 
+												<br><br><font face="Arial, Helvetica, sans-serif" size="2"><b><i>BRING THEM IN …………CHURCH PLANTING </i></b></font><br>
+												(Indian Christian Fellowship Centers & International Christian Fellowship Centers) 
+												<br><br>On one hand, NRN's mission focus is to help existing churches' evangelism activities equip their Christian workers with gospel film tools. On the other hand, we also want to plant churches where there are harvest of souls through our pioneering efforts in unreached people groups and responsive fields where the need is greatest. 
+												<br><br><u><font color="#993300">Where as in Rajapalayam, we are planning to build such ICF's where ever NRN is working here in the sub continent, Asia, And other nations in the near future. </font></u>
+												<br><br><font face="Arial, Helvetica, sans-serif" size="2"><b><i>SUPPORTING NATIVE MISSIONARIES</i></b></font>
+												<br><br>One of the goals for Nations Reach Network is to support native missionaries, pastors, and Christian workers through input seminars, conferences, trainings, sending our own gospel and ministry teams, and through minimum financial support so that they would not give up but continue to give themselves to serve the Lord. 
+												<br><br>At present, there are approximately 10-15 Christian pastors and workers receiving some financial support through Nations Reach Network. 
+												<br><br><font face="Arial, Helvetica, sans-serif" size="2"><b><i>NATIONS REACH MISSIONS ----------- REACHING FORWARD </i></b></font>
+												<br><br>Since our focus is nations, we are planning and preparing to be a blessing to the whole nation through networking and also strengthening our base to co-ordinate activities. We are setting up branch offices for promotional work and to mobilize prayer teams for NRN in different parts of India. 
+												<br><br>At present, we have our branch offices in Chennai, Rajapalayam, and Ooty to co-ordinate and monitor our work in South India. The Pune office will help us co-ordinate the North India activities. 
+												<br><br>We are looking forward to expand our work further by starting a branch office in Gawhathi in Assam State to co-ordinate the work in the North Eastern states of India by challenging the local theological students to do their part in reaching the lost, mobilize Christians to be part of our Nations Reach prayer network partners who would uphold our ministries and pray for the nations. Our focus is to ultimately expand to neighboring countries in the near future. 
+												<br><br><font face="Arial, Helvetica, sans-serif" size="2"><b><i>NATIONS REACH MISSIONS PROGRESS THUS FAR AND THE PLANS ---</i></b></font>
+												<br><font face="Courier New, Courier, mono" size="3" color="#3399FF"><i><b>ASK OF ME ...AND I WILL GIVE YOU NATIONS....</b>Psalms 2;8 </i></font>
+												<br><br><font face="Arial, Helvetica, sans-serif" size="2"><b><i>REACHING UP :</i></b></font>
+												<ul>
+													<li><b><u>NRPN:</u></b> Nations reach prayer network will mobilize prayers for the nations. The third Saturday of every month will be our NR prayer emphasis day: To mobilize prayer support for our ministry and pray for the nations through all NRN partners and branch offices and workers</li>
+												</ul>
+												<br><font face="Arial, Helvetica, sans-serif" size="2"><b><i>REACHING OUT : </i></b></font>
+												<ul>
+													<li><b><u>ARISE AND SHINE:</u></b> The aim is to conduct regular inter-denominational monthly get- together to motivate and mobilize Christian youths to arise and shine for Jesus. Later this year we are planning to conduct a youth camp to reach the youths of Nilgiris district, and in the future move to other districts of the nation.</li>
+												</ul>											
+											<br>
+											</td>
+										</tr>
+										<tr>
+											<td valign="middle" bgcolor="#EAEAEA" height="25"><A href="NationsNews.html#sm" name=sec_a1></a><font face="Arial, Helvetica, sans-serif" size="2" color="#005CB1"><b>NATIONS REACH GOSREL / FILM TEAM: </b></font></td>
+										</tr>
+										<tr>
+											<td class="body_text">Through a small team of 2 members, we were able to reach out to several hundreds with the gospel in various villages and towns in the Nilgiris hill station, and we also helped several local church pastors with evangelism. 
+											<br><br>Thus far, we have screened more than 75 film shows in which we screened 'The Passion of Christ', 'Man of Compassion', 'Where is Peace?' and a few children's films. 
+											<br><br>The highlight through the screening of these movies was to some villages, this was the first time a Christian film had been screened, and many clearly understood the good news of the gospel. 
+											<br><br><b><u>Nations Reach Publication </u></b>
+											<br>Divine Tools -A timely teaching guide to mobilize churches into action written by Pastor Arnold Rajan of New Creation Revival Church. This teaching guide will be published by Nations Reach and will be widely used during our NR pastors' conferences and other Christian training programs. We will also translate this guide into other regional languages namely Tamil and Hindi. This will be our first publication. <br><br><br>
+											</td>
+										</tr>
+										<tr>
+											<td valign="middle" bgcolor="#EAEAEA" height="25"><font face="Arial, Helvetica, sans-serif" size="2" color="#005CB1"><b>Nations Reach Training INSTITUTE / SCHOOL /CENTER</b></font></td>
+										</tr>
+										<tr>
+											<td class="body_text">The proposal for a training center for all our mission activities in terms of discipleship training, leadership development, short term programs to equip, educate and encourage Christian workers and our own NR workers, and which will serve as a hub for various NR mission activities are planned for 2006 and beyond. 
+											<br><br><font color="#CC3300"><i>For thou hast been slain and redeemed men to God from every nation and tribe; and made a kingdom priests unto God………….Revelation 5: 9-10 </i></font>
+											<br><br>
+											</td>
+										</tr>
+										<tr>
+											<td valign="middle" bgcolor="#EAEAEA" height="25"><font face="Arial, Helvetica, sans-serif" size="2" color="#005CB1"><b>Greetings from the NationsReach Network Family </b></font></td>
+										</tr>
+										<tr>
+											<td class="body_text">We stand in awe to see what the Lord has done and is doing in and through NRN. This news letter sums up as a quarterly news update through the various ministries of Nations Reach. 
+											<br><br>Little Roses ----- The TWO little roses childrens home has been a blessing to nearly 85 children and the number will increase in the future. After the Muthanathi building project for the childrens home in Rajapalayam. the Lord has guided us and provided for a childrens home project in Dundigal. The first phase of construction hse taken off by putting a bore well for water source for the home project . 
+											<br><br>In the near future we have planned to network and look beyond our horizons and start similar homes for the Tsunami orphan children in Andaman&Nicobar islands and Srilanka. 
+											<br><br>
+											</td>
+										</tr>
+										<tr>
+											<td valign="middle" bgcolor="#EAEAEA" height="25"><font face="Arial, Helvetica, sans-serif" size="2" color="#005CB1"><b>RELIEF PROJECT</b></font></td>
+										</tr>
+										<tr>
+											<td class="body_text">
+											Our recent visit to Andamans and Nicobar Islands was a really a timely one 
+											<br><br>We are closely net working with Mission to Andamans and Nicbar Islands. Our contact David paul and Dhanaraj Paul took us around and briefed us about all they have been doing and bout their future plans. Nations reach is initially helping them finish a church construction project and in the near future closely work to establish a little roses childrens home, relief work and other ministries of training and seminar for Christian workers 
+											<br><br>Into Action Media. Our dream has always been to use the media for the Master and fulfill oru part in His Great Commission. Slowly and steadly into action media has found its place in the tinsel world to impact and enlighten the lost through films and TV programmes. We have decided to continue our ALL THINGS HAVE BECOME NEW. 
+											<br><br>(Ellam Pudhithaina) an Half an hour creative gospel programme with songs, testimonies, gospel messages. later this year. Plans are underway to launch our dream project, mega project as a final thrust of evangelism to reach the teeming masses here India with the gospel right where they are through a feature film JEMBULINGAM. 
+											<br><br>
+											</td>
+										</tr>
+										<tr>
+											<td valign="middle" bgcolor="#EAEAEA" height="25"><font face="Arial, Helvetica, sans-serif" size="2" color="#005CB1"><b>UPHOLD NATIONS REACH NETWORK MINISTRIES IN YOUR PRAYERS </b></font></td>
+										</tr>
+										<tr>
+											<td class="body_text">
+											<ul>
+												<li>Pray for all the Little Roses children and for our plans to establish homes to help tsunami victims in Andamans and Srilanka. </li>
+												<li>Pray for our on going relief programmes in the sub continent especially in Tamilnadu India, Andamans and Nicobar Islands and Srilanka through our network partners. </li>
+												<li>Pray for production of All Things have become new an half an hour TV Gospel programme. </li>
+												<li>Pray for all our building projects such as childrens home in Dundigal, Trainning center in Ooty and Church projectsin India, will go on unhinderd due to opposition official government permissions and funds. </li>
+												<li>Pray for all our Missions department activities, Film ministry, Discipleship training programmes, Nations reach pastors conference, and church planting. </li>
+											</ul>
+											</td>
+										</tr>
+									</table>
+									<br><br>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="1" bgcolor="#000000" colspan="2"></td>
+		</tr>
+		<tr>
+			<td height="20" valign="middle" bgcolor="#D0D0D0" colspan="9" align="center"><font class="box1_text">© Copyright 2007. Into Action Media. All rights reserved. </font></td>
+		</tr>
+	</table>
+</body>
+</html>
