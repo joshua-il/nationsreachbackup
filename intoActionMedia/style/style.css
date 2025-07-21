@@ -1,0 +1,54 @@
+/* CSS Document */
+a.topmenu{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #B44A10;font-weight: regular; text-align:none;text-decoration:none;}
+a.topmenu:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #757575;font-weight: regular;text-decoration:underline}
+
+.feedback_field{FONT-SIZE: 8pt; COLOR: #6e6E6E; FONT-FAMILY: Tahoma, Arial, Helvetica; text-align:right; line-height:1px; padding:10px; letter-spacing: 1pt; word-spacing: 1pt;font-weight: Bold; }
+
+a.sub_menu{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #0057A9;font-weight: regular;text-decoration:none; LINE-HEIGHT: 17px;}
+a.sub_menu:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;font-weight: regular;text-decoration:none}
+
+a.arial_menu{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #5F5D5D;font-weight: bold;text-decoration:none; LINE-HEIGHT: 20px;}
+a.arial_menu:hover{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #8B0000;font-weight: bold;text-decoration:none}
+
+a.DRed_menu{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #8B0000;font-weight: bold;text-decoration:none; LINE-HEIGHT: 20px;}
+a.DRed_menu:hover{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;font-weight: bold;text-decoration:none}
+
+a.red_menu{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FF0000;font-weight: normal;text-decoration:none; LINE-HEIGHT: 17px;}
+a.red_menu:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FF9C00;font-weight: normal;text-decoration:none}
+
+a.white_menu{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF;font-weight: bold;text-decoration:none; LINE-HEIGHT: 20px;}
+a.white_menu:hover{font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #FFCACA;font-weight: bold;text-decoration:none}
+
+a.downs_menu{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #757561;font-weight: normal;text-decoration:none; LINE-HEIGHT: 10px;}
+a.downs_menu:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FF4200;font-weight: normal;text-decoration:underline}
+
+a.blue_menu{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #3F3F3F;font-weight: normal;text-decoration:none; LINE-HEIGHT: 20px;}
+a.blue_menu:hover{font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #0085FF;font-weight: normal;text-decoration:underline}
+
+.box1_text{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #000000;font-weight: none;text-decoration:none;LINE-HEIGHT: 10px;text-align:justify;}
+.arial_text{font-family: Arial, Helvetica, sans-serif; font-size:11px; color: #606060;font-weight: bold;text-decoration:none;LINE-HEIGHT: 20px;text-align:justify;}
+.body_text{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; color: #000000;font-weight: none;text-decoration:none;LINE-HEIGHT: 18px;text-align:justify;}
+.bodymax_text{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;font-weight: none;text-decoration:none;LINE-HEIGHT: 20px;text-align:justify;}
+.WHITE_text{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #989898;font-weight: none;text-decoration:none;LINE-HEIGHT: 20px;text-align:justify;}
+.president_text{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #000000;font-weight: none;text-decoration:none;LINE-HEIGHT: 15px;text-align:justify;}
+A.options {PADDING-BOTTOM: 5px; WIDTH: 75%; COLOR: #FF0000; PADDING-TOP: 1px;}
+A.options:hover {BACKGROUND-COLOR: #CACACA; PADDING-BOTTOM: 1px;}
+
+.box{color: red ;background-color:#FFFFFF;text-transform:capitalize;font-weight:bold;padding-left:3;padding-right:3;
+font-family:Verdana, Helvetica, sans-serif; font-size:10px;}
+
+.form_textbox{height:13 pt; border-left: #393939 1px solid; Border-Right: #393939 1px solid;Border-Bottom: #393939 1px solid;Border-top: #393939 1px solid;Border-Collapse:collapse;
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;color:#A5A5A5;
+}
+
+.but{border-left: #393939 1px solid; Border-Right: #393939 1px solid;Border-Bottom: #393939 1px solid;Border-top: #393939 1px solid;color: #000000 ;background-color:#FFFFFF;text-transform:capitalize;font-weight:bold;padding-left:3;padding-right:3;
+font-family:Verdana, Helvetica, sans-serif; font-size:10px;}
+
+
+a.Spl_menu{BACKGROUND-COLOR: #000000;font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #5F5D5D;font-weight: bold;text-decoration:none; LINE-HEIGHT: 20px;}
+a.Spl_menu:hover{BACKGROUND-COLOR: #000000;font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #8B0000;font-weight: bold;text-decoration:none}
+
+
+/*END MENU STYLE*/
+-->
+</style>
